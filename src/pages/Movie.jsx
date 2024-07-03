@@ -50,9 +50,9 @@ const Movie = () => {
                 </div>
                 <div className="info">
                     <h3><BsHourglassSplit /> Duração:</h3>
-                    <p>{movie.runtime}</p>
+                    <p>{movie.runtime} minutos</p>
                 </div>
-                <div className="info">
+                <div className="info description">
                     <h3><BsFillFileEarmarkTextFill /> Descrição:</h3>
                     <p>{movie.overview}</p>
                 </div>
