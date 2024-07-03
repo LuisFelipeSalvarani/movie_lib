@@ -25,7 +25,7 @@ const Search = () => {
         const searchWithQueryUrl = `${searchURL}?${lenguage}&${apiKey}&query=${query}`
 
         getSearchedMovies(searchWithQueryUrl)
-    }, [])
+    }, [query])
 
   return (
     <div className="container">
