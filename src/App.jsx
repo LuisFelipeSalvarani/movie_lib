@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <h2>Movies lib</h2>
       <Outlet />
     </>
   )
